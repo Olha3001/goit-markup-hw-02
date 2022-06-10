@@ -126,11 +126,7 @@ display: flex;
 .button {
     background-color: var(--link-color);
     color: var(--white-color);
-    width: 200px;
-    height: 50px;
-    position: absolute;
-    left: 627px;
-    top: 449px;
+  
 }
 /* цвет для заголовков 2 и 3 уровня */
 .section-title{
