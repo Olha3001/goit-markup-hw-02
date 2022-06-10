@@ -126,6 +126,8 @@ display: flex;
 .button {
     background-color: var(--link-color);
     color: var(--white-color);
+    display: flex;
+    
   
 }
 /* цвет для заголовков 2 и 3 уровня */
