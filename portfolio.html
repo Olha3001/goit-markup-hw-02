@@ -7,50 +7,62 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Homework</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
 </head>
 
-<body>
-    <header>
-        <nav>
+<body class="page">
+<header>
+    <div class="nav-container">
+        <nav class="nav-section">
             <!-- logo -->
-            <a href="./index.html" lang="en">
-                <h2 class="logo-title"><span class="logoweb">Web</span><span class="logostudio">Studio<span></h2>
-            </a>
+            <div>
+                <a href="./index.html" lang="en">
+                    <h2 class="logo-title"><span class="logoweb">Web</span><span class="logostudio">Studio<span></h2>
+                </a>
+            </div>
             <!-- navigation to other pages -->
-            <ul class="site-nav">
-                <li class="link-studiya"><a href="">Студия</a></li>
-                <li class="link-portfolio"><a href="">Портфолио</a></li>
-                <li class="link-kontakt"><a href="">Контакты</a></li>
-            </ul>
+            <div class="link-container">
+                <ul class="site-nav list">
+                    <li class="link-studio"><a href="/index.html" class="link current">Студия</a></li>
+                    <li class="link-potfolio"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li class="link-contact"><a href="" class="link">Контакты</a></li>
+                </ul>
         </nav>
-        <div>
-            <ul class="kontact">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:380961111111">380961111111</a></li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <div>
-        <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+    </div>
+    <div>
+        <ul class="kontact list">
+            <li><a href="mailto:info@devstudio.com" class="link-email">info@devstudio.com</a></li>
+            <li><a href="tel:380961111111" class="link-tel">380961111111</a></li>
         </ul>
+    </div>
+    </div>
+</header>
+    <main>
+        <div class="buton-nav">
+            <button type="button" class="link current all">Все</button>
+            <button type="button" class="link website ">Веб-сайты</button>
+            <button type="button" class="link application">Приложения</button>
+            <button type="button" class="link design">Дизайн</button>
+            <button type="button" class="link marketing">Маркетинг</button>
         </div>
         <div>
         <ul>
-            <li><img src="./images/tehnokryak-1.jpg" alt="Технокряк" width="370"><h3>Технокряк</h3><p>Веб-сайт</p></li>
-            <li><img src="./images/poster-1.jpg" alt="Постер Нью-Орлеан" width="370"><h3>Постер New Orlean vs Golden Star</h3><p>Дизайн</p></li>
-            <li><img src="./images/restorant-1.jpg" alt="Ресторан Seafood" width="370"><h3>Ресторан Seafood</h3><p>Приложение</p></li>
-            <li><img src="./images/project prime-1.jpg" alt="Проект Prime Маркетинг" width="370"><h3>Проект Prime</h3><p>Маркетинг</p></li>
-            <li><img src="./images/project 9 growing-1.jpg" alt="Проект Boxes" width="370"><h3>Проект Boxes</h3><p>Приложение</p></li>
-            <li><img src="./images/insperition-1.jpg" alt="Inspiration has no Borders" width="370"><h3>Inspiration has no Borders</h3><p>Веб-сайт</p></li>
-            <li><img src="./images/project 7 limited-1.jpg" alt="Издание Limited Edition" width="370"><h3>Издание Limited Edition</h3><p>Дизайн</p></li>
-            <li><img src="./images/project 8lab-1.jpg" alt="Проект LAB" width="370"><h3>Проект LAB</h3><p>Маркетинг</p></li>
-            <li><img src="./images/project 9 growing-1.jpg" alt="Growing Business" width="370"><h3>Growing Business</h3><p>Приложение</p></li>
+            <li><a href=""><img src="./images/tehnokryak-1.jpg" alt="Технокряк" width="370"><h3>Технокряк</h3><p>Веб-сайт</p></li></a>
+            <li><a href=""><img src="./images/poster-1.jpg" alt="Постер Нью-Орлеан" width="370"><h3>Постер New Orlean vs Golden Star</h3><p>Дизайн</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></a></li>
+            <li><a href=""><img src="./images/restorant-1.jpg" alt="Ресторан Seafood" width="370"><h3>Ресторан Seafood</h3><p>Приложение</p></li></a>
+            <li><a href=""><img src="./images/project prime-1.jpg" alt="Проект Prime Маркетинг" width="370"><h3>Проект Prime</h3><p>Маркетинг</p></li></a>
+            <li><a href=""><img src="./images/project 9 growing-1.jpg" alt="Проект Boxes" width="370"><h3>Проект Boxes</h3><p>Приложение</p></li></a>
+            <li><a href=""><img src="./images/insperition-1.jpg" alt="Inspiration has no Borders" width="370"><h3>Inspiration has no Borders</h3><p>Веб-сайт</p></li></a>
+            <li><a href=""><img src="./images/project 7 limited-1.jpg" alt="Издание Limited Edition" width="370"><h3>Издание Limited Edition</h3><p>Дизайн</p></li></a>
+            <li><a href=""><img src="./images/project 8lab-1.jpg" alt="Проект LAB" width="370"><h3>Проект LAB</h3><p>Маркетинг</p></li></a>
+            <li><a href=""><img src="./images/project 9 growing-1.jpg" alt="Growing Business" width="370"><h3>Growing Business</h3><p>Приложение</p></li></a>
         </ul>
         </div>
     </main>
