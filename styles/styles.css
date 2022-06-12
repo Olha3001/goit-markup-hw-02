@@ -102,6 +102,8 @@ padding-top: 24px;
 .kontact-link{
     padding-right: 50px;
     color: var(--color-descr);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     }
 
 /* правила для кнопок */
@@ -127,6 +129,7 @@ padding-top: 24px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 /* свойства для заголовков второго уровня */
 .second {
