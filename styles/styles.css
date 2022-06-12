@@ -17,10 +17,13 @@ body {
 }
 header {
   background-color: var(--color-white);
+  display: flex;
 }
+/* текущая страница ссылка */
 .current {
   color: var(--color-link);
 }
+/* спрятали заголовок */
 .hidden {
   position: absolute;
   white-space: nowrap;
@@ -33,15 +36,18 @@ header {
   clip-path: inset(50%);
   margin: -1px;
 }
-
+/* свойства логотипа */
 .logo-title {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 1.19;
+  line-height: 1.19;
+  letter-spacing:0.03em;
   text-decoration: none;
   color: #000;
+  padding-left: 215px;
+padding-top: 24px;
+    
 }
 .logoweb {
   color: var(--color-link);
@@ -52,11 +58,13 @@ header {
 .logostudio--white {
   color: var(--color-white);
 }
+/* правило для всх ссылок */
 .link {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
   color: var(--color-title);
+  
 }
 .link:hover,
 .link:focus {
@@ -64,18 +72,39 @@ header {
 }
 .nav-list {
   display: flex;
+  padding-top: 24px;
 }
 
 .nav-item {
 }
-
+/* свойства ссылок */
 .nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--color-title);
 }
+/* расположение ссылок шапки */
+.studio{
+    padding-left: 93px;
+    padding-right: 50px;
+}
+.kontact{
+    padding-left: 50px;
+    padding-right: 330px;
+   
+}
+.kontact-container{
+    display: flex;
+    padding-top: 24px;
+}
+.kontact-link{
+    padding-right: 50px;
+    color: var(--color-descr);
+    }
+
+/* правила для кнопок */
 .button {
   background-color: var(--color-title);
   border: none;
@@ -83,33 +112,39 @@ header {
   font-family: inherit;
   color: inherit;
 }
+/* сброс маркеров */
 .list {
   list-style: none;
 }
 .section {
   color: var(--color-white);
 }
+/* свойства для h3 */
 .section-title {
   color: var(--color-title);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
+/* свойства для заголовков второго уровня */
 .second {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
-  letter-spacing: 1.16;
+  letter-spacing:0.03em;
 }
+/* герой */
 .hero-button {
   background-color: var(--color-link);
   color: var(--color-white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -119,36 +154,69 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
+  padding: 200px 452px 0 452px;
 }
 .hero {
   background-color: var(--color-hero);
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: scenter;
+  
 }
+/* текст параграфов */
 .description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.7;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--color-descr);
+}
+/* фон для фото */
+.fon-foto{
+    background-color: var(--color-white);
 }
 .footer {
   background-color: var(--color-hero);
   color: var(--color-white);
+
 }
+/* фон для секции наша команда */
 .team {
   background-color: var(--color-team);
 }
-.btn-portfolio {
-  background-color: var(--color-team);
-}
-.adress {
-  color: var(--color-white);
-}
+.team-foto {
+        display: flex;
+    }
+
+/* цвет шрифта футера */
+
+
 .work {
   display: flex;
 }
+/* наши преимущества */
 .skills {
   display: flex;
 }
-.team-foto {
-  display: flex;
+
+/* кнопки портфолио */
+.btn-portfolio {
+    background-color: var(--color-team);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.third{
+    font-size: 18px;
+}
+.kontakt-footer{
+    font-style: normal;
+    color:rgba(255, 255, 255, 0.6);
+
+}
+.kiev{
+    color: var(--color-white);
 }
