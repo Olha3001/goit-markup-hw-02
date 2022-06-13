@@ -105,6 +105,7 @@ padding-top: 24px;
     color: var(--color-descr);
     line-height: 1.14;
     letter-spacing: 0.02em;
+    font-weight: 500;
     }
 
 /* правила для кнопок */
@@ -182,6 +183,11 @@ flex-direction: column;
 }
 .description-skills{
   font-size: 14px;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-descr);
 }
 /* фон для фото */
 .fon-foto{
@@ -219,8 +225,9 @@ flex-direction: column;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
+
 }
-.link-bnt:hover,
+
 .link-btn:focus{
   background-color: var(--color-link);
   color: var(--color-white);
@@ -233,6 +240,10 @@ flex-direction: column;
     font-size: 18px;
 }
 .kontakt-footer{
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     font-style: normal;
     color:rgba(255, 255, 255, 0.6);
 
