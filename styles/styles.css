@@ -6,14 +6,15 @@
   --color-link: #2196f3;
   --color-title: ##212121;
   --color-descr: #757575;
+  --color-black: #000;
+
   
 }
 body {
   background-color: var(--color-white);
   font-family: var(--font-family);
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
+ 
 }
 header {
   background-color: var(--color-white);
@@ -53,7 +54,7 @@ padding-top: 24px;
   color: var(--color-link);
 }
 .logostudio {
-  color: #000;
+  color: var(--color-black);
 }
 .logostudio--white {
   color: var(--color-white);
@@ -174,10 +175,13 @@ flex-direction: column;
 /* текст параграфов */
 .description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-descr);
+}
+.description-skills{
+  font-size: 14px;
 }
 /* фон для фото */
 .fon-foto{
@@ -216,6 +220,15 @@ flex-direction: column;
         text-align: center;
         letter-spacing: 0.03em;
 }
+.link-bnt:hover,
+.link-btn:focus{
+  background-color: var(--color-link);
+  color: var(--color-white);
+}
+.current-btn{
+  background-color: var(--color-link);
+  color: var(--color-white);
+}
 .third{
     font-size: 18px;
 }
@@ -226,4 +239,5 @@ flex-direction: column;
 }
 .kiev{
     color: var(--color-white);
+    
 }
